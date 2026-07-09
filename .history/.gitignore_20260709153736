@@ -1,0 +1,86 @@
+# ============================================================
+# .gitignore 配置文件
+# ============================================================
+# 用途：指定 Git 版本控制应忽略的文件和目录
+# 适用项目：嵌入式开发（STM32/Arduino）+ Python 计算机视觉
+# 创建时间：2026-07-09
+# ============================================================
+
+# Python 相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# C/C++ 编译产物
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.i
+*.s
+*.bin
+*.hex
+*.elf
+*.map
+*.a
+*.lib
+
+# Arduino 相关
+*.ino.bin
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# STM32/ARM 开发
+*.d
+*.list
+*.su
+*.iobj
+*.ipdb
+*.idb
+*.pdb
+*.uvguix.*
+*.uvopt
+*.uvproj
+*.bak
+
+# IDE 和编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.cproject
+.settings/
+
+# 操作系统生成文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 日志和临时文件
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+
+# 依赖和构建目录
+node_modules/
+target/
+out/
+debug/
+release/
