@@ -84,3 +84,8 @@ target/
 out/
 debug/
 release/
+
+# 其他不需要版本控制的文件
+.history/
+.arts/
+.codeartsdoer/
