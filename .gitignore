@@ -89,3 +89,5 @@ release/
 .history/
 .arts/
 .codeartsdoer/
+.reasonix/
+reasonix.toml
